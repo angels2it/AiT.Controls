@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiT.Controls.CameraView", "AiT.Controls.CameraView\AiT.Controls.CameraView.csproj", "{DF17086D-B00C-46B7-B81A-5AC8B088F99D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CameraView", "CameraView", "{CB0E016F-FD69-4962-896C-F3929FDEE1EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiT.Controls.CameraView.Droid", "AiT.Controls.CameraView.Droid\AiT.Controls.CameraView.Droid.csproj", "{B9DEB1AB-623F-4809-9CDF-0EA7F129E643}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,17 @@ Global
 		{DF17086D-B00C-46B7-B81A-5AC8B088F99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF17086D-B00C-46B7-B81A-5AC8B088F99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF17086D-B00C-46B7-B81A-5AC8B088F99D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DEB1AB-623F-4809-9CDF-0EA7F129E643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DEB1AB-623F-4809-9CDF-0EA7F129E643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DEB1AB-623F-4809-9CDF-0EA7F129E643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DEB1AB-623F-4809-9CDF-0EA7F129E643}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF17086D-B00C-46B7-B81A-5AC8B088F99D} = {CB0E016F-FD69-4962-896C-F3929FDEE1EE}
+		{B9DEB1AB-623F-4809-9CDF-0EA7F129E643} = {CB0E016F-FD69-4962-896C-F3929FDEE1EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9BA49CF5-E351-4CE6-A30E-727AC88CE0F9}

@@ -11,6 +11,7 @@
 *.userprefs
 
 # Build results
+AiT.Controls.CameraView.Build/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/

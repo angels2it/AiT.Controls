@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>ait.controls.cameraview</id>
+    <version>1.0.0</version>
+    <authors>Angel iT</authors>
+    <owners>Angel iT</owners>
+    <description>Camera live view control for xamarin</description>
+    <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
+    <tags>xamarin controls</tags>
+    <language>en-US</language>
+    <dependencies>
+      <group targetFramework="portable45-net45+win8+wp8+wpa81">
+        <dependency id="Xamarin.Forms" version="2.3.3.175"/>
+      </group>
+      <group targetFramework="MonoAndroid">
+        <dependency id="Xamarin.Forms" version="2.3.3.175"/>
+      </group>
+      <group targetFramework="Xamarin.iOS">
+        <dependency id="Xamarin.Forms" version="2.3.3.175"/>
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <!--Xamarin.Android-->
+    <file src="..\AiT.Controls.CameraView.Build\MonoAndroid10\AiT.Controls.CameraView.dll" target="lib\MonoAndroid10\AiT.Controls.CameraView.dll" />
+    <file src="..\AiT.Controls.CameraView.Build\MonoAndroid10\AiT.Controls.CameraView.pdb" target="lib\MonoAndroid10\AiT.Controls.CameraView.pdb" />
+    <file src="..\AiT.Controls.CameraView.Build\MonoAndroid10\AiT.Controls.CameraView.Droid.dll" target="lib\MonoAndroid10\AiT.Controls.CameraView.Droid.dll" />
+    <file src="..\AiT.Controls.CameraView.Build\MonoAndroid10\AiT.Controls.CameraView.Droid.pdb" target="lib\MonoAndroid10\AiT.Controls.CameraView.Droid.pdb" />
+
+    <!--Xamarin.iOS Unified-->
+    <!--<file src="lib\Xamarin.iOS10\Rangstrup.Xam.Plugin.Controls.dll" target="lib\Xamarin.iOS10\Rangstrup.Xam.Plugin.Controls.dll" />
+    <file src="lib\Xamarin.iOS10\Rangstrup.Xam.Plugin.Controls.pdb" target="lib\Xamarin.iOS10\Rangstrup.Xam.Plugin.Controls.pdb" />
+    <file src="lib\Xamarin.iOS10\Rangstrup.Xam.Plugin.Controls.iOS.dll" target="lib\Xamarin.iOS10\Rangstrup.Xam.Plugin.Controls.iOS.dll" />
+    <file src="lib\Xamarin.iOS10\Rangstrup.Xam.Plugin.Controls.iOS.pdb" target="lib\Xamarin.iOS10\Rangstrup.Xam.Plugin.Controls.iOS.pdb" />-->
+
+
+    <!--.NET 4.5-->
+    <file src="..\AiT.Controls.CameraView.Build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10\AiT.Controls.CameraView.dll" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10\AiT.Controls.CameraView.dll" />
+    <file src="..\AiT.Controls.CameraView.Build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10\AiT.Controls.CameraView.pdb" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10\AiT.Controls.CameraView.pdb" />
+  </files>
+</package>
